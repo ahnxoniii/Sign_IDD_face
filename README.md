@@ -1,20 +1,3 @@
-# Sign-IDD
-Source code for "Sign-IDD: Iconicity Disentangled Diffusion for Sign Language Production" (Shengeng Tang, Jiayi He, Dan Guo, Yanyan Wei, Feng Li, Richang Hong - AAAI 2025)
-
-# Usage
-Install required packages using the requirements.txt file.
-```text
-pip install -r requirements.txt
-```
-# Data
-PHOENIX14T
-
-We use the same data as the [Progressive Transformer](https://github.com/BenSaunders27/ProgressiveTransformersSLP/tree/master/Data/tmp).
-
-USTC-CSL
-
-Dataset will be released soon.
-
 
 # Training
 ```text
