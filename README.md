@@ -1,3 +1,16 @@
+# Sign_IDD_face  
+
+This repository is the official PyTorch implementation of **"Facial Keypoint-Based Sign Language Generation Method for Incorporating Non-Manual Components"**  
+This paper published 대한전자공학회 하계학술대회, 2026.06
+
+
+
+----
+Soeun An, Jinsun Park(Major Professor)  
+**VIP(Visual Intelligence and Perception) Lab / Pusan Nat'l Univ Computer Science and Engineering / Busan, Republic of Korea**  
+
+## Abstract
+Sign language is a visual language that conveys meaning through both manual components, such as hand shape and movement, and non-manual components, such as facial expressions and gaze. Existing sign language generation methods mainly focus on generating manual components from linguistic inputs, while non-manual components are not sufficiently considered. To overcome this limitation, we propose an extended sign language generation method based on the diffusion-based model Sign-IDD. Our method incorporates facial keypoints into the pose representation and applies a separate face joint loss to reflect the different characteristics of body, hand, and face regions. Experimental results show that our method improves the test BLEU-1 score from 24.08 to 25.27 and the ROUGE score from 23.61 to 25.34 compared with the baseline model. These results indicate that incorporating facial non-manual components through facial keypoints improves the semantic delivery and expressiveness of generated poses. 
 
 # Training
 ```text
